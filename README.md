@@ -18,7 +18,7 @@ python3 scripts/check-site.py
 
 ## Publish
 
-Pushes to `main` deploy automatically through GitHub Pages. The repository Pages source must be set to **GitHub Actions** once.
+Pushes to `main` deploy automatically through GitHub Pages after launch is enabled. The repository Pages source must be set to **GitHub Actions**, and the repository variable `PAGES_ENABLED` must be set to `true` once the content is approved for public release.
 
 ## Connect a custom domain
 
